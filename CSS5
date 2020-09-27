@@ -1,0 +1,29 @@
+<html>
+<body>
+    <h1>Picture Dictionary</h1>
+    <dl>
+        <dt style="text-align:center"><img src="https://img.favpng.com/4/6/12/ant-cartoon-png-favpng-9TN1peQyBDg79Skfi7UPS2mkh.jpg" alt="Ant Image" height=200 width=200></dt>
+        <dt><strong>Ant</strong></dt>
+        <dt><em>Formicidae</em></dt>
+        <dd>An ant is an insect that lives and works in a large colony of ants.</dd>
+    </dl>
+    <dl>
+        <dt style="text-align:center"><img src="http://pdictionary.com/images/b/bird.gif" alt="Bird Image" height=200 width=200></dt>
+        <dt><strong>Bird</strong></dt>
+        <dt><em>Aves</em></dt>
+        <dd>A bird is an animal distinguished by the possession of feathers, wings, a beak, and typically by being able to fly.</dd>
+    </dl>
+    <dl>
+        <dt style="text-align:center"><img src="https://static8.depositphotos.com/1000792/1065/v/450/depositphotos_10659058-stock-illustration-cute-dog.jpg" alt="Dog Image" height=200 width=200></dt>
+        <dt><strong>Dog</strong></dt>
+        <dt><em>Canis lupus familiaris</em></dt>
+        <dd>A dog is a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, non-retractable claws, and a barking, howling, or whining voice.</dd>
+    </dl>
+    <dl>
+        <dt style="text-align:center"><img src="https://i.pinimg.com/600x315/6b/47/05/6b47050f0f15b955cf725609749e1c87.jpg" alt="Elephant Image" height=200 width=200></dt>
+        <dt><strong>Elephant</strong></dt>
+        <dt><em>Loxodonta</em></dt>
+        <dd>An elephant is a very large plant-eating mammal with a prehensile trunk, long curved ivory tusks, and large ears, native to Africa and southern Asia. It is the largest living land animal.</dd>
+    </dl>
+</body>
+</html>
