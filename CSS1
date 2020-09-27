@@ -1,0 +1,44 @@
+<html>
+<body>
+    <form>
+        <fieldset>
+            <legend><h1>Sign Up</h1></legend>
+            <p>
+                Full Name:<br />
+                <input type="text" placeholder="First name"size=25 />
+                <input type="text" placeholder="Last name"size=25 /><br>
+                Age: <br />
+                <input type="number" placeholder="Age" min="6" max="80">
+            </p>
+            <p>
+                <label>Your email: </label><br>
+                <input type="email"placeholder="eg.something@gmail.com">
+            </p>
+            <p>
+                Password: <br>
+                <input type="password" placeholder="between 6-12 characters" maxlength=12>
+            </p>
+            <p>
+                Confirm password: <br>
+                <input type="password" placeholder="passwords should match" maxlength=12>
+            </p>
+            <p>
+                Favourite type of books: <br>
+                Fiction: <input type="checkbox">
+                Non-fiction: <input type="checkbox">
+                Mystery: <input type="checkbox">
+                Comics: <input type="checkbox">
+                Novel: <input type="checkbox">
+            </p>
+            <p>
+                Favourite sports: <br>
+                Badmintion: <input type="checkbox">
+                Golf: <input type="checkbox">
+                Basketball: <input type="checkbox">
+                Football: <input type="checkbox">
+                Bowling: <input type="checkbox">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
