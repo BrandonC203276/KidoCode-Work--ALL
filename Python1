@@ -1,0 +1,42 @@
+tom = Turtle()
+tom.shape('turtle')
+tom.color('green')
+tom.speed(100)
+
+sc = Screen()
+
+def h1():
+    tom.setheading(90)
+    x,y = tom.position()
+    if y<300-30:
+        tom.forward(30)
+
+def h2():
+    tom.setheading(180)
+    x1,y1 = tom.position()
+    if x1>-300+30:
+        tom.forward(30)
+
+def h3():
+    tom.setheading(270)
+    x,y = tom.position()
+    if y>-300+30:
+        tom.fd(30)
+
+def h4():
+    tom.setheading(0)
+    x,y = tom.position()
+    if x<300-30:
+        tom.fd(30)
+        
+def e():
+    sc.bye()
+        
+sc.onkey(h1,"w")
+sc.onkey(h2,"a")
+sc.onkey(h3,"s")
+sc.onkey(h4,"d")
+sc.onkey(e,"q")
+
+sc.listen()
+sc.mainloop()
