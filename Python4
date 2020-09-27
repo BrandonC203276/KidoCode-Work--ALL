@@ -1,0 +1,43 @@
+tom = Turtle()
+tom.shape('turtle')
+tom.color('blue')
+tom.speed(100)
+
+import random
+
+def line(x,y,length1,degree):
+    tom.rt(degree)
+    tom.penup()
+    tom.goto(x,y)
+    tom.pendown()
+    tom.fd(length1)
+
+def polygon(x,y,length2,sides):
+    tom.penup()
+    tom.goto(x,y)
+    tom.pendown()
+    for loop in range(sides):
+        tom.fd(length2)
+        tom.rt(360.0/sides)
+
+def circle(x,y,r):
+    tom.penup()
+    tom.goto(x,y)
+    tom.pendown()
+    tom.circle(r)
+
+for loop in range(200):
+    a = random.randint(1,3)
+    x = random.randint(-300,300)
+    y = random.randint(-300,300)
+    length1 = random.randint(10,200)
+    length2 = random.randint(5,100)
+    sides = random.randint(3,10)
+    degree = random.randint(0,359)
+    r = random.randint(5,100)
+    if a==1:
+        line(x,y,length1,degree)
+    elif a==2:
+        polygon(x,y,length2,sides)
+    elif a==3:
+        circle(x,y,r)
