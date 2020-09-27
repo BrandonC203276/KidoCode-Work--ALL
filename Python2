@@ -1,0 +1,45 @@
+tom = Turtle()
+tom.shape("turtle")
+tom.speed(100)
+tom.color("green")
+
+while True:
+    choice = int(input("Choose an integer from zero to two. Choose three to stop loop\n"))
+    if choice == 0:
+        radius = float(input("What is the radius?\n"))
+        color = str(input("What is the colour?\n"))
+        tom.color(color)
+        tom.begin_fill()
+        tom.circle(radius)
+        tom.end_fill()
+    elif choice == 1:
+        height = float(input("What is the height?\n"))
+        width = float(input("What is the width?\n"))
+        x = float(input("What is the starting x-coordinate?\n"))
+        y = float(input("What is the starting y-coordinate?\n"))
+        color1 = str(input("What is the colour?\n"))
+        tom.penup()
+        tom.goto(x,y)
+        tom.pendown()
+        tom.setheading(0)
+        tom.color(color1)
+        for loop in range(2):
+            tom.fd(width)
+            tom.lt(90)
+            tom.fd(height)
+            tom.lt(90)
+    elif choice ==2:
+        side = float(input("How long is each side?\n"))
+        x1 = float(input("What is the starting x-coordinate?\n"))
+        y1 = float(input("What is the starting y-coordinate?\n"))
+        tom.penup()
+        tom.goto(x1,y1)
+        tom.pendown()
+        tom.setheading(0)
+        for loop in range(3):
+            tom.fd(side)
+            tom.lt(120)
+    elif choice ==3:
+        break
+    else:
+        pass
