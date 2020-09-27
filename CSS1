@@ -38,6 +38,28 @@
                 Football: <input type="checkbox">
                 Bowling: <input type="checkbox">
             </p>
+            <p>
+                Gender: <br>
+                <label>Male</label> <input type="radio" name="cood">
+                <label>Female</label> <input type="radio" name="cood">
+            </p>
+            <p>
+                Favourite day of the week:
+                <select name="day">
+                    <option>Monday</option>
+                    <option>Tuesday</option>
+                    <option>Wednesday</option>
+                    <option>Thursday</option>
+                    <option>Friday</option>
+                    <option>Saturday</option>
+                    <option>Sunday</option>
+                </select>
+            </p>
+            <p>
+                <textarea cols="45" rows="7" placeholder="What's interesting about you..."></textarea>
+            </p>
+            <hr />
+            <input type="submit">
         </fieldset>
     </form>
 </body>
