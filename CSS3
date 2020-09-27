@@ -1,0 +1,30 @@
+<html>
+<body>
+    <table border="2">
+        <tr style="background-color:blue;">
+            <th style="color:white;">Name</th>
+            <th style="color:white">Age</th>
+            <th style="color:white">Colour</th>
+            <th style="color:white">Food</th>
+        </tr>
+        <tr>
+            <td>Dennis</td>
+            <td>10</td>
+            <td style="background-color:red">Red</td>
+            <td>Fried Chicken <br /> <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Crispy-Fried-Chicken_EXPS_FRBZ19_6445_C01_31_3b-2.jpg" height=100 width=150/></td>
+        </tr>
+        <tr>
+            <td>Sarah</td>
+            <td>12</td>
+            <td style="background-color:yellow">Yellow</td>
+            <td>Pasta <br /> <img src="https://feelgoodfoodie.net/wp-content/uploads/2019/07/One-Pan-Pasta-8.jpg" height=100 width=150/></td>
+        </tr>
+        <tr>
+            <td>Karen</td>
+            <td>9</td>
+            <td style="background-color:indigo">Indigo</td>
+            <td>Mashed Potatoes <br /> <img src="https://cafedelites.com/wp-content/uploads/2018/11/Creamy-Mash-Potatoes-IMAGE-1.jpg" height=100 width=150/></td>
+        </tr>
+    </table>
+</body>
+</html>
