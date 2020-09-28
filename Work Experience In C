@@ -1,0 +1,77 @@
+typedef struct Student
+{
+    char *Name;
+    int ID;
+    char *Book;
+    char *BookID;
+} Information;
+
+int ID;
+void main()
+{
+    Information m1, m2, m3, m4, m5;
+    
+    m1.Name="Adam";
+    m1.ID=1160;
+    m1.Book= "Artemis Fowl";
+    m1.BookID= "A912";
+     
+    m2.Name="John";
+    m2.ID=6163;
+    m2.Book= "Hunger Games";
+    m2.BookID= "B834";
+ 
+    m3.Name="Tyler";
+    m3.ID=9102;
+    m3.Book= "Batman";
+    m3.BookID= "R2D2";
+    
+    m4.Name="Dylan";
+    m4.ID=7171;
+    m4.Book= "The Witcher";
+    m4.BookID= "C3PO";
+    
+    m5.Name="Keem";
+    m5.ID=1000;
+    m5.Book= "Darren Shan";
+    m5.BookID= "M7007";
+    
+    printf("Type in the student's ID\n");
+    scanf("%d", &ID);
+    
+    if (ID==m1.ID)
+    {
+        printf("Name=%s\n", m1.Name);
+        printf("ID=%d\n", m1.ID);
+        printf("Book=%s\n", m1.Book);
+        printf("Book ID=%s\n", m1.BookID);
+    }
+    else if (ID==m2.ID)
+    {
+        printf("Name= %s\n", m2.Name);
+        printf("ID= %d\n", m2.ID);
+        printf("Book= %s\n", m2.Book);
+        printf("Book ID= %s\n", m2.BookID);
+    }
+    else if (ID==m3.ID)
+    {
+        printf("Name= %s\n", m3.Name);
+        printf("ID= %d\n", m3.ID);
+        printf("Book= %s\n", m3.Book);
+        printf("Book ID= %s\n", m3.BookID);
+    }
+    else if (ID==m4.ID)
+    {
+        printf("Name= %s\n", m4.Name);
+        printf("ID= %d\n", m4.ID);
+        printf("Book= %s\n", m4.Book);
+        printf("Book ID= %s\n", m4.BookID);
+    }
+    else if (ID==m5.ID)
+    {
+        printf("Name=%s\n", m5.Name);
+        printf("ID=%d\n", m5.ID);
+        printf("Book=%s\n", m5.Book);
+        printf("Book ID=%s\n", m5.BookID);
+    }
+}
